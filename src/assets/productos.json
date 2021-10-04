@@ -1,0 +1,54 @@
+[
+    {
+      "id" : 1,
+      "name": "Porducto 1",
+      "price": 10000,
+      "stock": 0,
+      "content": "lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "image": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
+          "tumbnail": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg"
+        },
+        {
+          "image": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
+          "tumbnail": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg"
+        },
+        {
+          "image": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg",
+          "tumbnail": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg"
+        }
+      ],
+      "image_activated": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
+      "new" : false,
+      "offer" : true,
+      "colors" : ["red", "blue", "yellow", "green"],
+      "color_selected" : "red"
+    },
+    {
+      "id" : 2,
+      "name": "Porducto 2",
+      "price": 5000,
+      "stock": 0,
+      "content": "lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "image": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
+          "tumbnail": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg"
+        },
+        {
+          "image": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
+          "tumbnail": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg"
+        },
+        {
+          "image": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg",
+          "tumbnail": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg"
+        }
+      ],
+      "image_activated": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
+      "new" : true,
+      "offer" : true,
+      "colors" : ["green", "yellow", "blue"],
+      "color_selected" : "green"
+    }
+  ]
