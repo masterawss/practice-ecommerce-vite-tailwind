@@ -12,7 +12,7 @@
                     <hr class=" w-12 h-1 bg-orange-500 rounded-full mt-8">
                     <p class="text-gray-800 text-base leading-relaxed mt-8 font-semibold">
                         Esta página  está desarrollada para fines de práctica y ejercicio del uso de herramientas como:
-                        <strong class="text-blue-500">Vite, Vue, Tailwind, Vuex.</strong> y quedó chida 👌
+                        <strong class="text-blue-500">Vite, Vue 3 con Composition API, Tailwind, Vuex.</strong> y quedó chida 👌
                     </p>
                     <div class="get-app flex space-x-5 mt-10 justify-center md:justify-start">
                         <a target="_blank" href="https://github.com/masterawss/practice-ecommerce-vite-tailwind" class="apple bg-white shadow-md px-3 py-2 rounded-lg flex items-center space-x-4">
