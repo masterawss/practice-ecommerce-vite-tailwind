@@ -22,7 +22,7 @@
       "image_activated": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
       "new" : false,
       "offer" : true,
-      "colors" : ["red", "blue", "yellow", "green"],
+      "colors" : ["red", "yellow", "green"],
       "color_selected" : "red"
     },
     {
@@ -45,10 +45,62 @@
           "tumbnail": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg"
         }
       ],
-      "image_activated": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
+      "image_activated": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
       "new" : true,
       "offer" : true,
       "colors" : ["green", "yellow", "blue"],
       "color_selected" : "green"
+    },
+    {
+      "id" : 3,
+      "name": "Porducto 2",
+      "price": 2890,
+      "stock": 0,
+      "content": "lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "image": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
+          "tumbnail": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg"
+        },
+        {
+          "image": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
+          "tumbnail": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg"
+        },
+        {
+          "image": "https://i.pinimg.com/736x/88/50/65/885065ac3de62d5a46107ace86111f7f.jpg",
+          "tumbnail": "https://i.pinimg.com/736x/88/50/65/885065ac3de62d5a46107ace86111f7f.jpg"
+        }
+      ],
+      "image_activated": "https://i.pinimg.com/736x/88/50/65/885065ac3de62d5a46107ace86111f7f.jpg",
+      "new" : true,
+      "offer" : true,
+      "colors" : ["indigo", "yellow", "pink"],
+      "color_selected" : "indigo"
+    },
+    {
+      "id" : 4,
+      "name": "Porducto 6",
+      "price": 4100,
+      "stock": 0,
+      "content": "lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "image": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
+          "tumbnail": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg"
+        },
+        {
+          "image": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
+          "tumbnail": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg"
+        },
+        {
+          "image": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg",
+          "tumbnail": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg"
+        }
+      ],
+      "image_activated": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg",
+      "new" : true,
+      "offer" : true,
+      "colors" : ["purple", "gray", "blue"],
+      "color_selected" : "purple"
     }
   ]

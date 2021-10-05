@@ -1,55 +1,52 @@
 <template>
-    <div class="flex-1 flex flex-col">
-		<nav class="px-4 flex justify-between bg-blue-600 text-white h-16 border-b-2 shadow-md">
+    <div>
+		<!-- header -->
+		<header class="header my-8">
+			<!-- container -->
+			<div class="container px-4 sm:px-8 lg:px-16 xl:px-20 mx-auto">
+				<!-- header wrapper -->
+					<div class="header-wrapper flex items-center justify-between">
 
-			<!-- top bar left -->
-			<ul class="flex items-center">
-				<!-- add button -->
-				<li class="h-6 w-6">
-					<img
-						class="h-full w-full mx-auto"
-						src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Svelte_Logo.svg/512px-Svelte_Logo.svg.png"
-						alt="svelte logo" />
-				</li>
-			</ul>
+						<!-- header logo -->
+						<div class="header-logo">
+							<h1 class="font-semibold text-black leading-relaxed"><a href="">
+								<img src="../assets/logo.png" alt="" class="w-10">
+								<strong>La tiendita	</strong>
+							</a></h1>
+						</div>
 
-			<ul class="flex items-center">
-				<!-- add button -->
-				<li>
-					<h1 class="pl-8 lg:pl-0 ">Svelte</h1>
-				</li>
-			</ul>
+						<!-- mobile toggle -->
+						<div class="toggle md:hidden">
+							<button>
+								<svg 
+									class="h-6 w-6 fill-current text-black"
+									fill="none" stroke-linecap="round" 
+									stroke-linejoin="round" stroke-width="2" 
+									viewBox="0 0 24 24" stroke="currentColor">
+									<path d="M4 6h16M4 12h16M4 18h16"></path>
+								</svg>
+							</button>
+						</div>
 
-			<!-- to bar right  -->
-			<ul class="flex items-center">
+						<!-- Navbar -->
+						<navbar class="navbar hidden md:block">
+							<ul class="flex space-x-8 text-sm font-semibold">
+								<li><a href="#" class="active border-b-2 border-orange-500 pb-2">Productos</a></li>
+								<li><a href="#" class="hover:text-orange-500">Contacto</a></li>
+								<li><a href="#" class="hover:text-orange-500">Patrocinadores</a></li>
+								<li><a href="#" class="hover:text-orange-500">Feedback</a></li>
+								<li><a href="#" class="hover:text-orange-500">Precios</a></li>
+								<li><a href="#" class="cta bg-orange-500 hover:bg-orange-600 px-3 py-2 rounded text-white font-normal">Get the App</a></li>
+							</ul>
+						</navbar>
 
-				<li class="pr-6">
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						width="24"
-						height="24"
-						viewBox="0 0 24 24"
-						fill="none"
-						stroke="currentColor"
-						stroke-width="2"
-						stroke-linecap="round"
-						stroke-linejoin="round"
-						class="feather feather-bell">
-						<path
-							d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-						<path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-					</svg>
+					</div>
+			</div>
 
-				</li>
-				<li class="h-10 w-10">
-					<img
-						class="h-full w-full rounded-full mx-auto"
-						src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-						alt="profile woman" />
-				</li>
+		</header><!-- end header -->
 
-			</ul>
-
-		</nav>
+		
+			
+		
 	</div>
 </template>

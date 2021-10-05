@@ -11,8 +11,8 @@ const deleteItem = () => {
 }
 </script>
 <template>
-<li class="border-gray-400 flex flex-row mb-2">
-    <div class="select-none cursor-pointer border-2 rounded-md flex flex-1 items-center p-4  transition duration-500 ease-in-out transform hover:-translate-y-1 hover:shadow-lg hover:border-white">
+<li class=" flex flex-row mb-2">
+    <div class="select-none cursor-pointer rounded-md flex flex-1 items-center p-4 ">
         <div class="flex flex-col rounded-md w-10 h-10 bg-gray-100 justify-center items-center mr-4">
 
         <img class="w-full object-cover object-center " :src="item.images[0].tumbnail" alt="">
