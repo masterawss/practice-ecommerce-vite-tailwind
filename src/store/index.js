@@ -8,6 +8,7 @@ export default createStore({
     },
     mutations: {
         addCarItem(state, item){
+            console.log(item);
             state.cart.push({...item, cart_id: '_' + Math.random().toString(36).substr(2, 9) })
         },
         deleteCarItem(state, item){

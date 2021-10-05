@@ -7,13 +7,13 @@ let cart = computed(() => store.state.cart)
 
 let total = computed(() => {
     let _total = 0;
-    unref(cart).map((a) => _total +=  a.price)
+    unref(cart).map((a) => _total += (a.price * a.quantity * (a.has_discount ? .50 : 1)))
     return _total
 })
 </script>
 <template>
-    <div class=" shadow-lg flex items-center mr-10">
-		<div class="flex p-4 bg-white">
+    <div class="flex flex-col shadow-lg w-full mr-10">
+		<div class="flex p-4 bg-white w-full">
             <div class="container flex mx-auto w-full items-center justify-center">
                 <ul class="flex flex-col  p-4">
                     <li>

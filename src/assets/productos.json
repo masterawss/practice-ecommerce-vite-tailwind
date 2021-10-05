@@ -1,106 +1,87 @@
 [
-    {
-      "id" : 1,
-      "name": "Porducto 1",
-      "price": 10000,
-      "stock": 0,
-      "content": "lorem ipsum dolor sit amet",
-      "images": [
-        {
-          "image": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
-          "tumbnail": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg"
-        },
-        {
-          "image": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
-          "tumbnail": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg"
-        },
-        {
-          "image": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg",
-          "tumbnail": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg"
-        }
-      ],
-      "image_activated": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
-      "new" : false,
-      "offer" : true,
-      "colors" : ["red", "yellow", "green"],
-      "color_selected" : "red"
-    },
-    {
-      "id" : 2,
-      "name": "Porducto 2",
-      "price": 5000,
-      "stock": 0,
-      "content": "lorem ipsum dolor sit amet",
-      "images": [
-        {
-          "image": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
-          "tumbnail": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg"
-        },
-        {
-          "image": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
-          "tumbnail": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg"
-        },
-        {
-          "image": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg",
-          "tumbnail": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg"
-        }
-      ],
-      "image_activated": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
-      "new" : true,
-      "offer" : true,
-      "colors" : ["green", "yellow", "blue"],
-      "color_selected" : "green"
-    },
-    {
-      "id" : 3,
-      "name": "Porducto 2",
-      "price": 2890,
-      "stock": 0,
-      "content": "lorem ipsum dolor sit amet",
-      "images": [
-        {
-          "image": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
-          "tumbnail": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg"
-        },
-        {
-          "image": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
-          "tumbnail": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg"
-        },
-        {
-          "image": "https://i.pinimg.com/736x/88/50/65/885065ac3de62d5a46107ace86111f7f.jpg",
-          "tumbnail": "https://i.pinimg.com/736x/88/50/65/885065ac3de62d5a46107ace86111f7f.jpg"
-        }
-      ],
-      "image_activated": "https://i.pinimg.com/736x/88/50/65/885065ac3de62d5a46107ace86111f7f.jpg",
-      "new" : true,
-      "offer" : true,
-      "colors" : ["indigo", "yellow", "pink"],
-      "color_selected" : "indigo"
-    },
-    {
-      "id" : 4,
-      "name": "Porducto 6",
-      "price": 4100,
-      "stock": 0,
-      "content": "lorem ipsum dolor sit amet",
-      "images": [
-        {
-          "image": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg",
-          "tumbnail": "https://i.pinimg.com/736x/f0/0d/64/f00d645c234bc4f9a5b30bf62ed506e2.jpg"
-        },
-        {
-          "image": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg",
-          "tumbnail": "https://p4.wallpaperbetter.com/wallpaper/533/647/735/line-background-abstract-background-geometric-hd-wallpaper-preview.jpg"
-        },
-        {
-          "image": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg",
-          "tumbnail": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg"
-        }
-      ],
-      "image_activated": "https://i.pinimg.com/736x/9d/cd/cd/9dcdcd6c74f76058fc0810ef5deb61a1.jpg",
-      "new" : true,
-      "offer" : true,
-      "colors" : ["purple", "gray", "blue"],
-      "color_selected" : "purple"
-    }
-  ]
+  {
+    "id": "1",
+    "name": "Camara",
+    "price": 500000,
+    "stock": 4,
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam laborum perferendis. Numquam, maiores qui nobis natus iusto dolor facere alias dicta voluptates ut quia libero facilis, delectus vitae soluta!",
+    "images": [
+      {
+        "image": "https://thumbs.dreamstime.com/b/minimalist-mountain-landscapes-beautiful-pastel-landscape-can-be-use-background-wallpaper-merchandise-interior-design-178400275.jpg",
+        "thumbnail": "https://thumbs.dreamstime.com/b/minimalist-mountain-landscapes-beautiful-pastel-landscape-can-be-use-background-wallpaper-merchandise-interior-design-178400275.jpg"
+      },
+      {
+        "image": "https://thumbs.dreamstime.com/b/minimalist-mountain-landscapes-beautiful-pastel-landscape-can-be-use-background-wallpaper-merchandise-interior-design-178394068.jpg",
+        "thumbnail": "https://thumbs.dreamstime.com/b/minimalist-mountain-landscapes-beautiful-pastel-landscape-can-be-use-background-wallpaper-merchandise-interior-design-178394068.jpg"
+      }
+    ],
+    "quantity": 1,
+    "offer": true,
+    "image_activated": "https://thumbs.dreamstime.com/b/minimalist-mountain-landscapes-beautiful-pastel-landscape-can-be-use-background-wallpaper-merchandise-interior-design-178400275.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Microfono",
+    "price": 900000,
+    "stock": 2,
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam laborum perferendis. Numquam, maiores qui nobis natus iusto dolor facere alias dicta voluptates ut quia libero facilis, delectus vitae soluta!",
+    "images": [
+      {
+        "image": "https://static.vecteezy.com/system/resources/previews/002/050/584/original/creative-minimalist-hand-painted-abstract-arts-background-natural-landscape-background-with-japanese-style-vector.jpg",
+        "thumbnail": "https://static.vecteezy.com/system/resources/previews/002/050/584/original/creative-minimalist-hand-painted-abstract-arts-background-natural-landscape-background-with-japanese-style-vector.jpg"
+      },
+      {
+        "image": "https://image.freepik.com/vector-gratis/fondo-minimalista-dibujado-mano_23-2149005694.jpg",
+        "thumbnail": "https://image.freepik.com/vector-gratis/fondo-minimalista-dibujado-mano_23-2149005694.jpg"
+      },
+      {
+        "image": "https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Colorful-pastel-minimalist-background-Graphics-13505212-1-1-580x386.png",
+        "thumbnail": "https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Colorful-pastel-minimalist-background-Graphics-13505212-1-1-580x386.png"
+      }
+    ],
+    "quantity": 1,
+    "new": true,
+    "image_activated": "https://static.vecteezy.com/system/resources/previews/002/050/584/original/creative-minimalist-hand-painted-abstract-arts-background-natural-landscape-background-with-japanese-style-vector.jpg"
+
+  },
+  {
+    "id": "3",
+    "name": "Audifonos",
+    "price": 250000,
+    "stock": 1,
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam laborum perferendis. Numquam, maiores qui nobis natus iusto dolor facere alias dicta voluptates ut quia libero facilis, delectus vitae soluta!",
+    "images": [
+      {
+        "image": "https://cdn.pixabay.com/photo/2020/09/15/15/56/background-5574027_1280.png",
+        "thumbnail": "https://cdn.pixabay.com/photo/2020/09/15/15/56/background-5574027_1280.png"
+      },
+      {
+        "image": "https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Colorful-pastel-minimalist-background-Graphics-13505212-1-1-580x386.png",
+        "thumbnail": "https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Colorful-pastel-minimalist-background-Graphics-13505212-1-1-580x386.png"
+      }
+    ],
+    "quantity": 1,
+    "new": true,
+    "offer": true,
+    "image_activated": "https://cdn.pixabay.com/photo/2020/09/15/15/56/background-5574027_1280.png"
+  },
+  {
+    "id": "4",
+    "name": "Luces LED",
+    "price": 250000,
+    "stock": 1,
+    "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nam laborum perferendis. Numquam, maiores qui nobis natus iusto dolor facere alias dicta voluptates ut quia libero facilis, delectus vitae soluta!",
+    "images": [
+      {
+        "image": "https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Colorful-pastel-minimalist-background-Graphics-13505216-1-1-580x386.png",
+        "thumbnail": "https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Colorful-pastel-minimalist-background-Graphics-13505216-1-1-580x386.png"
+      },
+      {
+        "image": "https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Colorful-pastel-minimalist-background-Graphics-13505212-1-1-580x386.png",
+        "thumbnail": "https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Colorful-pastel-minimalist-background-Graphics-13505212-1-1-580x386.png"
+      }
+    ],
+    "quantity": 1,
+    "image_activated": "https://www.creativefabrica.com/wp-content/uploads/2021/06/17/Colorful-pastel-minimalist-background-Graphics-13505216-1-1-580x386.png"
+  }
+]
